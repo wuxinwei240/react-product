@@ -1,0 +1,16 @@
+{
+    "presets": ["env", "react", "es2015", "stage-0"],
+    "plugins": [
+        "transform-runtime",
+        "syntax-dynamic-import",
+        "transform-class-properties",
+        "transform-decorators-legacy",
+        "transform-es2015-arrow-functions",
+        "transform-object-rest-spread",
+        "react-loadable/babel",
+        "transform-remove-strict-mode", ["import", {
+            "libraryName": "antd",
+            "style": "css"
+        }]
+    ]
+}
